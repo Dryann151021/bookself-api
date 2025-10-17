@@ -11,8 +11,7 @@ export default defineConfig([
     rules: {
       semi: ['error', 'always'],
       quotes: ['error', 'single'],
-      trailingcomma: ['error', 'always'],
-      'no-unused-vars': 'error',
+      'comma-dangle': ['error', 'always-multiline'],
     },
   },
 ]);
